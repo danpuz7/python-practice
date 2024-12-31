@@ -1,4 +1,4 @@
-import turtle 
+import turtle
 import time
 import random
 
@@ -37,5 +37,6 @@ def init_turtle():
 racers = get_number_of_racers()
 init_turtle()
 random.shuffle(COLORS)
-colors = COLOR[:racers]
+colors = COLORS[:racers]
+
 
