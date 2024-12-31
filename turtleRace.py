@@ -38,5 +38,6 @@ racers = get_number_of_racers()
 init_turtle()
 random.shuffle(COLORS)
 colors = COLORS[:racers]
+create_turtles(colors)
 
 
